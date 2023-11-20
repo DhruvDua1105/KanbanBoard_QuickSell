@@ -1,0 +1,58 @@
+
+.card {
+  font-family: 'Questrial', sans-serif;
+  background-color: rgba(255, 255, 255, 0.573);
+  border: 0px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.047);
+  transition: transform 0.3s ease-in-out;
+  min-height: 100px;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h5,
+.card h4,h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card h5 {
+  color: #3498db;
+}
+
+.card h4 {
+  color: #2c3e50;
+}
+
+.card p {
+  color: #555;
+}
+
+.card small{
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #3498db;
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    padding: 16px;
+    min-height: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    padding: 16px 12px;
+    min-height: 140px;
+  }
+}
